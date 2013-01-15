@@ -1,0 +1,31 @@
+#################
+## project build results
+#################
+target/
+
+#################
+## Eclipse
+#################
+#.project
+#.metadata
+#bin/
+#tmp/
+#.classpath
+#.settings/
+#.loadpath
+
+############
+## Windows
+############
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+
+# Unit test / coverage reports
+.coverage
+.tox
+

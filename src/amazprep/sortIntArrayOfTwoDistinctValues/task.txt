@@ -1,0 +1,4 @@
+Sort array that contains two distinct values and those values are duplicated.
+Example:
+Input: [ 0, 1, 1, 1, 0, 0, 1, 0, 1, 1]
+Output:[ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
