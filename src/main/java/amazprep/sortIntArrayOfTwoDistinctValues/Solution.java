@@ -1,4 +1,4 @@
-package sortIntArrayOfTwoDistinctValues;
+package amazprep.sortIntArrayOfTwoDistinctValues;
 
 /**
  * Created with IntelliJ IDEA.
