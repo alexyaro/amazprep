@@ -1,12 +1,5 @@
 package amazprep.sortIntArrayOfTwoDistinctValues;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Alexandr
- * Date: 1/15/13
- * Time: 11:57 PM
- * To change this template use File | Settings | File Templates.
- */
 public class Solution {
     public static void sortInTwoPasses(int[] a) {
         if(a == null || a.length <= 1) {

@@ -1,18 +1,9 @@
 package amazprep.sortIntArrayOfTwoDistinctValues;
 
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
-import sortIntArrayOfTwoDistinctValues.Solution;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Alexandr
- * Date: 1/16/13
- * Time: 1:01 AM
- * To change this template use File | Settings | File Templates.
- */
-public class TestSortIntArrayOfTwoDistinctValues {
+public class SolutionTest {
 
     @Test
     public void sortInTwoPasses() {
