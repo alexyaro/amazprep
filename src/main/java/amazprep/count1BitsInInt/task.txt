@@ -1,0 +1,2 @@
+Given an integer number. Design method that will return number of bits set to 1 in this number.
+What is runtime complexity of your solution.

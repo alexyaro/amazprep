@@ -1,0 +1,5 @@
+Assume there's a website with 8 pages.
+We are interested in calculating the most frequently visited page sequences of size 3( e.g 1->5->2 ).
+We are given a log file that has several rows for a particular time period.
+Each row has following info : time, UserID, page visited
+Suggest an optimal algorithm to find the most frequently visited page sequence of size 3.
