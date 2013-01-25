@@ -34,9 +34,9 @@ public class Main {
         if (number == 0 || number == 1)
             return 1;
         return number * factorial(number-1);
-        ConcurrentHashMap chm = new ConcurrentHashMap();
-        chm.get()
-        Hashtable ht = new Hashtable();
-        ht.get()
+       // ConcurrentHashMap chm = new ConcurrentHashMap();
+        //chm.get()
+       // Hashtable ht = new Hashtable();
+       // ht.get()
     }
 }
