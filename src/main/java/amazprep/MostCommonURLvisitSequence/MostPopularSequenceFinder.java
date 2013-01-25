@@ -39,12 +39,12 @@ public final class MostPopularSequenceFinder {
 //    }
 
     public List getMostPopularSequence() {
-        Sequence maxOne = null;
-        AtomicInteger maxCount = new AtomicInteger();
-        for (Sequence seq : seq_counters.keySet()) {
-            if (seq_counters.get(seq).intValue() > maxCount.intValue()) {
+        Sequence maxOne = null;        
+        int maxCount = 0; // some other thread might modify the counter
+        for (Sequence seq : seq_counters.keySet()) { //not thread safe place -> ConcurrentModificationException
+            if (seq_counters.get(seq).intValue() > maxCount) {
                 maxOne = seq;
-                maxCount = seq_counters.get(seq);
+                maxCount = seq_counters.get(seq).intValue();
             }
         }
         return maxOne == null ? Collections.EMPTY_LIST : maxOne.getUrls();
