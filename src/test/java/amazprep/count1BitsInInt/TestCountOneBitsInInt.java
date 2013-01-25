@@ -1,7 +1,8 @@
-package amazprep.count1BitsInInt;
+package count1BitsInInt;
 
-import org.junit.Assert;
+import junit.framework.Assert;
 import org.junit.Test;
+import count1BitsInInt.Solution;
 
 /**
  * Created with IntelliJ IDEA.
