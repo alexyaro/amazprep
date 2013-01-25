@@ -1,0 +1,8 @@
+I have interesting task. I know answer already, but that is very toughtful in terms how to present answer.
+You have a search bar, like a Google, Amazon where user types what he wants to search for.
+You need to implement datastructure that will provide list of suggestions for the users input.
+Let's say there are brands: Amazon, Apple, Adidas, Adele.
+User types "Ap" - suggestions is only "Apple",
+user types "Ad" - > {"Adidad", "Adele"}.
+User types "a" -> {Amazon, Apple, Adidas, Adele} is presented.
+Which data structures would you use, or design your own. Provide pros and cons of those solutions.
