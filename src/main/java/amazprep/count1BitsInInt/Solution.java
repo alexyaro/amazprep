@@ -1,4 +1,4 @@
-package count1BitsInInt;
+package amazprep.count1BitsInInt;
 
 /**
  * Created with IntelliJ IDEA.
