@@ -1,4 +1,4 @@
-package amazprep.arrays;
+package amazprep.misc;
 
 
 import java.util.HashMap;
